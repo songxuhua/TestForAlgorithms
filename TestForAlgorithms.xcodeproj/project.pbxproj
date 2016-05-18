@@ -13,6 +13,7 @@
 		BC5A889E1CEC03330081C193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A889C1CEC03330081C193 /* Main.storyboard */; };
 		BC5A88A01CEC03330081C193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5A889F1CEC03330081C193 /* Assets.xcassets */; };
 		BC5A88A31CEC03330081C193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A88A11CEC03330081C193 /* LaunchScreen.storyboard */; };
+		BC5A88AC1CEC03560081C193 /* CustomMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5A88AB1CEC03560081C193 /* CustomMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC5A889F1CEC03330081C193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5A88A21CEC03330081C193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5A88A41CEC03330081C193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5A88AA1CEC03560081C193 /* CustomMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMode.h; sourceTree = "<group>"; };
+		BC5A88AB1CEC03560081C193 /* CustomMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BC5A88971CEC03330081C193 /* AppDelegate.m */,
 				BC5A88991CEC03330081C193 /* ViewController.h */,
 				BC5A889A1CEC03330081C193 /* ViewController.m */,
+				BC5A88AA1CEC03560081C193 /* CustomMode.h */,
+				BC5A88AB1CEC03560081C193 /* CustomMode.m */,
 				BC5A889C1CEC03330081C193 /* Main.storyboard */,
 				BC5A889F1CEC03330081C193 /* Assets.xcassets */,
 				BC5A88A11CEC03330081C193 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				BC5A889B1CEC03330081C193 /* ViewController.m in Sources */,
 				BC5A88981CEC03330081C193 /* AppDelegate.m in Sources */,
 				BC5A88951CEC03330081C193 /* main.m in Sources */,
+				BC5A88AC1CEC03560081C193 /* CustomMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
